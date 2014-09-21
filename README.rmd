@@ -1,0 +1,52 @@
+---
+title: "README"
+output: html_document
+---
+
+
+This project is the requirement towards the completion of the Getting and Cleaning Data course of Data Science Track.
+
+
+
+Project Goals:-
+
+-To demonstrate the ability to collect, work with, and clean a data set. 
+
+
+
+Dataset Description :-
+
+This data has been sourced from UCI machine learning repository.
+
+A full description is available at the site where the data was obtained:
+
+
+<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
+
+Abstract: Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+
+
+
+Project requirements:-
+1) Merges the training and the test sets to create one data set.
+2) Extracts only the measurements on the mean and standard deviation for each measurement. 
+3) Uses descriptive activity names to name the activities in the data set
+4) Appropriately labels the data set with descriptive variable names. 
+5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+
+Submission:-
+
+
+1) a tidy data set as described below
+2) run_analysis.R script for performing the analysis,
+3) code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
+
+
+Packages to be installed :-
+reshape2
+
+Running the script:-
+
+save the dataset in your working directory and run the script by typing source("run_analysis.R") in the console.
